@@ -1,0 +1,22 @@
+header {
+    background-color: white;
+}
+h1 {
+    font: lighter small-caps 6vw 'Fira Code';
+}
+h2 {
+    font: lighter 3vw 'Fira Code';
+}
+nav {
+    font: 3vw 'Fira Code';
+    text-align: center
+    
+}
+body {
+    margin: 0;
+    background-image: url('https://images.pexels.com/photos/259915/pexels-photo-259915.jpeg?cs=srgb&dl=background-brick-wall-bricks-brickwork-259915.jpg&fm=jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
