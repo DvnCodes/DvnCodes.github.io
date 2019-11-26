@@ -1,0 +1,41 @@
+body {
+    background-color: black;
+    background-image: radial-gradient(rgba(0, 117, 45, 0.75), black 110%);
+    height: 100vh;
+    font-family: 'Source Code Pro', monospace;
+    color: rgb(111, 250, 174);
+    text-shadow: 0 0 1vw silver;
+ }
+ body::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background: repeating-linear-gradient(0deg, rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15) 1px, transparent 1px, transparent 2px);
+    
+      }
+      
+}
+
+
+header {
+    text-align: center;
+    width: 100vw
+
+}
+h1 {
+    font-size: 6.5vw;
+    margin: 0;
+}
+h2 {
+    font-size: 2vw;
+    margin: 0;
+}
+nav {
+    font-size: 5vw;
+    margin: 0;
+    word-spacing: 15vw;
+
+}
